@@ -1,0 +1,63 @@
+.accordion-main{
+    margin-top: 50px;
+    height: 60vh;
+}
+.project-heading{
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    color: #c59d5f;
+    margin-bottom: 40px;
+}
+.accordion-wrapper{
+    max-width: 620px;
+    margin: auto;   
+}
+.accordion-container{
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+.accordion-question-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-question-text-container{
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.accrodion-heading{
+    font-size: 20px;
+    color: #102a42;
+    text-transform: capitalize;
+}
+.plus-icon{
+    color: #c59d5f;
+    font-size: 25px;
+}
+.minus-icon{
+    color: #c59d5f;
+    font-size: 25px;
+}
+.plus-icon-hide{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.question-btn{
+    transition: all 0.3s linear;
+}
+.accordion-container:hover .question-btn{
+    transform: rotate(90deg);
+}
+.open{
+    display: block;
+}
